@@ -1,6 +1,7 @@
 import express from "express";
-import contratanteRoutes from "./routes/contratante-routes";
-import sequelize from "./shared/connection";
+import contratanteRoutes from "./routes/contratante-routes.js";
+import sequelize from "./shared/connection.js";
+import { Contratante } from "./models/contratante-model.js";
 
 const app = express();
 app.use(express.json());

@@ -4,9 +4,9 @@ const sequelize = new Sequelize({
   dialect: "mysql",
   database: "nodetest",
   username: "root",
-  password: "node123",
+  password: "1234",
   host: "localhost",
-  port: 3307,
+  port: 3306,
 });
 
 export default sequelize;

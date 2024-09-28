@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { ContratanteService } from "../services/contratante-service";
+import { ContratanteService } from "../services/contratante-service.js";
 
 export class ContratanteController {
   private contratanteService: ContratanteService;
